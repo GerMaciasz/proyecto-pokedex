@@ -45,10 +45,10 @@ header {
 
 .card {
     margin: 20px;
-    width: 300px; /* Establece un ancho fijo */
-    height: 400px; /* Establece un alto fijo */
-    perspective: 1000px; /* Para efecto 3D */
-    position: relative; /* Asegura que el contenedor tenga un contexto de posicionamiento */
+    width: 300px; 
+    height: 400px; 
+    perspective: 1000px; 
+    position: relative; 
 }
 
 .card-inner {
@@ -56,7 +56,7 @@ header {
     height: 100%;
     transition: transform 1s;
     transform-style: preserve-3d;
-    position: relative; /* Posición relativa para el contenido de las caras */
+    position: relative; 
 }
 
 .card:hover .card-inner {
@@ -65,10 +65,10 @@ header {
 
 .card-front,
 .card-back {
-    position: absolute; /* Ambas caras deben ocupar exactamente el mismo espacio */
+    position: absolute; 
     width: 100%;
     height: 100%;
-    backface-visibility: hidden; /* Oculta la cara trasera mientras se muestra la frontal */
+    backface-visibility: hidden;
     border-radius: 10px;
     background-color: #f9f9f9;
     overflow: hidden;
@@ -76,20 +76,20 @@ header {
 
 .card-front {
     background-color: #f9f9f9;
-    z-index: 2; /* Asegura que esta cara esté al frente inicialmente */
+    z-index: 2; 
 }
 
 .card-back {
     background-color: #f9f9f9;
     color: white;
-    transform: rotateY(180deg); /* Comienza rotada */
+    transform: rotateY(180deg); 
 }
 
 .pokemon-img {
-    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    object-fit: cover; /* Asegura que la imagen se recorte si no encaja exactamente */
-    display: block; /* Elimina posibles espacios adicionales en línea */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    display: block; 
     margin: 1rem;
 }
 
