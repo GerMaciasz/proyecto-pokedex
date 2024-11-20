@@ -9,15 +9,6 @@ header {
     overflow: hidden;
 }
 
-img{
-    width: 100%; /* La imagen ocupa todo el ancho */
-    height: auto; /* Mantiene la proporción de la imagen */
-    object-fit: cover; /* Escala la imagen para llenar el contenedor */
-    position: absolute; /* Asegura que la imagen esté dentro del contenedor */
-    top: 0;
-    left: 0;
-}
-
 .pokemon-container {
     background-color: #5a555569;
 }
@@ -114,4 +105,13 @@ img{
 
 #logo {
     color: white;
+}
+
+#header-img{
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    position: absolute; 
+    top: 0;
+    left: 0;
 }
