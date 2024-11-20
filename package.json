@@ -1,0 +1,22 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Pagina que muestra ppkemos, sus tipos y habilidades",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerMaciasz/proyecto-pokedex.git"
+  },
+  "author": "Gerardo Macias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerMaciasz/proyecto-pokedex/issues"
+  },
+  "homepage": "https://github.com/GerMaciasz/proyecto-pokedex#readme",
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
